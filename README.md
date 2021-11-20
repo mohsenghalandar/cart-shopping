@@ -1,3 +1,6 @@
+This my Thrid react app, I made shopping Cart with react although make it SPA with react-router-dom v6 .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
