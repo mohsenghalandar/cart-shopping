@@ -8,13 +8,8 @@ const Store = () => {
     return (
         <div style={{display:"flex",flexFlow:"row wrap"}}>
             {products.map(item => <Product
-             key={item.id}
-             id={item.id} 
-             title={shorter(item.title)}
-             image={item.image} 
-             price={item.price}
-             description={item.description}
-             category={item.category}
+                            key={item.id}
+                            pp={item}
              /> )}
         </div>
     );
