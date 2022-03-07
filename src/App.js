@@ -14,7 +14,7 @@ function App() {
         <CartContextProvider>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Store />}/>
+            <Route index path="/" element={<Store />}/>
             <Route path="/product" element={<Store />} />
             <Route path="/products/:id" element={<Details />} />
             <Route path="/Cart" element={<Cart />}/>

@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+.main{
+    direction: rtl;
+    width: 100%;
+    padding: 5px 50px 15px 15px;
+    border-bottom: 2px solid rgba(165, 42, 42, 0.527);
+}
+.product{
+   
+    display: inline-block;
+    margin: -20px 5px 0px 5px;
+    border : 1px solid brown;
+    margin: 5px 60px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    color: brown;
+    transition: 0.5s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.product:hover{
+    color:white ;
+    background-color: brown;
+}
+.cart{
+    display: inline-block;
+    position: absolute;
+    margin: -7px 0px 0px 0px;
+    padding:  15px 0px 0px 0px;
+    transition: 0.5s;
+    border-radius: 50%;
+    border: none;
+}

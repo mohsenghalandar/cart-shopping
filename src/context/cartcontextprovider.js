@@ -11,8 +11,8 @@ const initaialstate = {
     checkout:false,
 }
 const sumItems = (items) => {
-    const itemsCounter =items.reduce((total,product)=>total+product.quantity,0);
-    const total = items.reduce((total,product)=> total+product.price * product.quantity,0).toFixed(2);
+    const itemsCounter =items.reduce((total,product)=> total + product.quantity,0);
+    const total = items.reduce((total,product)=> total + product.price * product.quantity,0).toFixed(2);
 
     return {itemsCounter : itemsCounter,total:total}
 }
@@ -25,8 +25,8 @@ const cartReducer = (state,action) => {
                 ...action.playload,
                 quantity:1,
             });
+            state.checkout=false;
 
-            state.checkout=false ;
         }
         
         return ({...state,selectedItems:[...state.selectedItems],...sumItems(state.selectedItems)})

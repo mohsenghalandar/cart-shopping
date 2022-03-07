@@ -1,0 +1,88 @@
+*{box-sizing: border-box;}
+.main{
+    width: 90%;
+    min-width: 250px;
+    border: 1px solid rgba(165, 42, 42, 0.349);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.5s;
+}
+.main:hover{
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22); 
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+}
+.title{
+    display: inline-block;
+    width: 100%;
+    color: brown;
+}
+.image{
+    display: inline-block;
+    width: 25%;
+    height: 10vw;
+}
+.describe{
+    display: inline-block;
+    color: brown;
+    width: 60%;
+    margin: -50px 0px 0px 10px;
+}
+
+.price{
+    color: brown;
+    font-size: 15px;
+    margin: 5px;
+}
+.cat{
+    color: brown;
+    font-size: 10px;
+}
+
+.plus{
+    
+    display: inline-block;
+    margin: -35px 25px 5px 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+
+}
+.minus{
+    display: inline-block;
+    margin: -35px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;  
+}
+.count{
+    display: inline-block;
+    margin: -35px 25px 5px 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: brown;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;  
+}
+.trash{
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    background-color: brown;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.total{
+    color: brown;
+    margin: 5px;
+}
