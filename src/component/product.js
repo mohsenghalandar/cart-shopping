@@ -8,6 +8,7 @@ import trash from "./resource/icons/trash.svg";
 import {isIncart} from "../helper/isIncart"
 import { counteritem } from '../helper/counteritem';
 import {shorter} from "../helper/shorter"
+
 const Product = (props) => {
     const {state,dispatch} = useContext(cartcontext);
     const {pp} = props; //because of some error change the productData

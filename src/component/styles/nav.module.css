@@ -16,6 +16,7 @@
     transition: 0.5s;
     text-decoration: none;
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
 }
 .product:hover{
     color:white ;
@@ -29,4 +30,42 @@
     transition: 0.5s;
     border-radius: 50%;
     border: none;
+}
+.cat{
+    display: inline-block;
+    border : 1px solid brown;
+    margin: 0px 10px 0px 0px;
+    padding: 8px 10px 7px 10px;
+    color: brown;
+    transition: 0.5s;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.active{
+    background-color: brown;
+    color: white;
+}
+.modal{
+    background-color: rgba(255, 255, 255, 0.849);
+    margin: 0px 150px 0px 0px;
+    position: absolute;
+    padding: 25px 0px 20px 75px ;
+    float: right;
+}
+.filter{
+    border: 1px solid brown;
+    margin: 5px -20px 0px 0px;
+    background-color: brown;
+    color: white;
+    padding: 5px 10px 5px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: white;
+    color: brown;
+}
+.filter:hover{
+    background-color: brown;
+    color: white;
 }

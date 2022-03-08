@@ -8,14 +8,18 @@ const ProductsContextProvider = (props) => {
 
     useEffect(()=>{
         const fetchapi = async()=>{
-            setProducts(await getProducts())
+            const data = (await getProducts());
+            setProducts(data);
+            setTimeout(() => {
+                console.log(data);
+            }, 2000);
         }
     fetchapi();
     },[])
 
 
     return (
-        <productscontext.Provider value={products}>
+        <productscontext.Provider value={{products:[products,setProducts]}}>
             {props.children}
         </productscontext.Provider>
     );
